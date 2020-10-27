@@ -9,11 +9,11 @@ if 3 > 5: # Acá va a un comentario
 x = 5
 y = 'chanchito feliz'
 
-print(x, y)
+#print(x, y)
 
 correo = 'chanchito@feliz.com'
 
-print(correo)
+#print(correo)
 
 _mi_var = 'chanchito'
 MIVAR = 'chanchito'
@@ -31,11 +31,11 @@ final = 'mundo'
 # print(inicio + final)
 
 palabra = 'hola mundo' # string
-oracion = "hola mundo comilla doble" # string
-
+oracion = "hola mundo comilla doble" # string 
 entero = 20 # integer
 conDecimales = 20.2 # float
 complejo = 1j
+#print(complejo)
 
 # print(palabra, oracion, entero, conDecimales, complejo)
 
@@ -43,20 +43,20 @@ lista = ['Hola', 'Mundo', 'Chanchito feliz']
 lista2 = lista.copy()
 lista.append('Chanchito triste')
 # lista.clear()
-# print(lista, lista2.count(3))
-# print(len(lista), len(lista2))
+#print(lista, lista2.count(3))
+#print(len(lista), len(lista2))
 largoLista = len(lista)
 largoLista2 = len(lista2)
 
-# print(largoLista, largoLista2)
+#print(largoLista, largoLista2)
 
-# print(lista[2])
+#print(lista[2])
 
-# lista.pop() # este elimina el último elemento de la lista
-# lista.remove('Hola') # este elimina un elemento por su valor
+lista.pop() # este elimina el último elemento de la lista
+lista.remove('Hola') # este elimina un elemento por su valor
 
-lista.reverse()
-lista.sort()
+#lista.reverse()
+#lista.sort()
 tupla = ('hola', 'mundo', 'somos', 'tupla')
 listaDeTupla = list(tupla)
 listaDeTupla.append('chanchito')
@@ -105,7 +105,7 @@ gatitos = {
     "Mamba": mamba
 }
 
-print(gatitos)
+#print(gatitos)
 
 perritos = dict(nombre="Chanchito Feliz", edad=6)
 print(perritos)
