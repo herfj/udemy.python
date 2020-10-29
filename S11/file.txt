@@ -1,0 +1,2 @@
+hola, este es un archivo de prueba! 
+Para la lectura de un archivo en python del curso de Udemy.
