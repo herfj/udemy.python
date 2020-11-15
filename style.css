@@ -1,0 +1,9 @@
+body {
+	width: 250px;
+	height: 100%;
+}
+.flex {
+	display: flex;
+	flex-flow: row wrap;
+	height: 45%;
+}
